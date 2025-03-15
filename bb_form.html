@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+<body>
+    <h1>Patient details</h1>
+    <form action="register_page" method="get"> <!--for storing data in database -->
+        <div>
+            <label for="patientid">Patient ID:</label>
+            <input type="text" id="patentid" name="id" placeholder="eg:318" required>
+        </div>
+        <br>
+        <div>
+            <label>Patient Name:</label>
+            <input type="text" name="name" placeholder="eg:Ann thresa">
+        </div>
+        <br>
+        <div>
+            <label>Patient Address</label>
+            <input type="text" placeholder="kunniyarath(H) thiruvazhiyode(po)">
+        </div>
+        <br>
+        <div>
+            <label>Pincode</label>
+            <input type="text" placeholder="eg:679514">
+        </div>
+        <br>
+        <div>
+            <label>Blood group</label>
+            <div>
+                <label>A+</label>
+                <input type="radio" name="bloodname">
+                <label>B+</label>
+                <input type="radio" name="bloodname">
+                <label>AB+</label>
+                <input type="radio" name="bloodname">
+                <label>AB-</label>
+                <input type="radio" name="bloodname">
+                <label>O+</label>
+                <input type="radio" name="bloodname">
+                <label>O-</label>
+                <input type="radio" name="bloodname">
+            </div>
+            
+        </div>
+        <br>
+        <div>
+            <input type="reset">
+            <button Type="button">submit</button>
+        </div>
+    </form>
+</body>
+</html>
