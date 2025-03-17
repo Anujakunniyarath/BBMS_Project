@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank Management System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: url('back.png') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        .header {
+            background-color: red;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .main-content {
+            margin-top: 50px;
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+            background: rgba(255, 255, 255, 0.5);
+            display: inline-block;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .buttons button {
+            background-color: red;
+            color: white;
+            border:none;
+            padding: 10px 50px;
+            margin: 10px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+            
+        }
+
+        .buttons button:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">Blood Bank Management System</div>
+
+    <div class="main-content">
+        <p>Why Donate Blood?</p>
+        <p>Blood donation saves lives! Donating blood is a noble act that helps patients in need.</p>
+    </div>
+
+    <div class="buttons">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button onclick="location.href='loginpage.php'">Admin</button><br>
+        <button onclick="location.href='donor.html'">Donor</button><br>
+        <button onclick="location.href='patient.html'">Patient</button>
+    </div>
+
+</body>
+</html>
