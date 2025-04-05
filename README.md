@@ -21,8 +21,9 @@ A simple web-based system developed as our second-year DBMS mini project.
 - Anuja.K  
 
 ## Project Overview
-It's a simple start, but completing it brought us so much happiness and confidence.  
-This marks one of our first steps into the world of development—and we believe it’s a small milestone that will guide us toward greater achievements ahead.
+In today’s digital era, maintaining accurate and accessible medical records is essential for efficient healthcare services. Blood banks play a crucial role in storing and supplying blood for medical emergencies, but traditional record-keeping methods often lead to inefficiencies, data loss, and mismanagement of blood stock.
+
+To address these challenges, this project introduces a Blood Bank Management System using PHP and MySQL. This system is designed exclusively for blood banks to maintain detailed records of donors, patients, and doctors, while allowing admins to monitor blood stock levels efficiently. By digitizing the management process, the system enhances data accuracy, accessibility, and operational efficiency, ensuring seamless blood bank operations.
 
 ## GitHub Repository
 This is the main repository containing the full source code of the project.
